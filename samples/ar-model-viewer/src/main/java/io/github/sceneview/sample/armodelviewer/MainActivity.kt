@@ -37,12 +37,12 @@ class MainActivity : AppCompatActivity(R.layout.activity_main) {
 
         Model("models/infodep4.glb"),
 
-
-        Model(
-            fileLocation = "https://sceneview.github.io/assets/models/Halloween.glb",
-            placementMode = PlacementMode.PLANE_HORIZONTAL,
-            scaleUnits = 2.5f
-        ),
+//
+//        Model(
+//            fileLocation = "https://sceneview.github.io/assets/models/Halloween.glb",
+//            placementMode = PlacementMode.PLANE_HORIZONTAL,
+//            scaleUnits = 2.5f
+//        ),
     )
     var modelIndex = 0
     var modelNode: ArModelNode? = null
