@@ -37,31 +37,7 @@ class MainActivity : AppCompatActivity(R.layout.activity_main) {
 
         Model("models/infodep4.glb"),
 
-//        Model(
-//            fileLocation = "https://storage.googleapis.com/ar-answers-in-search-models/static/Tiger/model.glb",
-//            // Display the Tiger with a size of 3 m long
-//            scaleUnits = 2.5f,
-//            placementMode = PlacementMode.BEST_AVAILABLE,
-//            applyPoseRotation = false
-//        ),
-//
-//        Model(
-//            fileLocation = "https://sceneview.github.io/assets/models/DamagedHelmet.glb",
-//            placementMode = PlacementMode.INSTANT,
-//            scaleUnits = 0.5f
-//        ),
-//        Model(
-//            fileLocation = "https://storage.googleapis.com/ar-answers-in-search-models/static/GiantPanda/model.glb",
-//            placementMode = PlacementMode.PLANE_HORIZONTAL,
-//            // Display the Tiger with a size of 1.5 m height
-//            scaleUnits = 1.5f
-//        ),
-//        Model(
-//            fileLocation = "https://sceneview.github.io/assets/models/Spoons.glb",
-//            placementMode = PlacementMode.PLANE_HORIZONTAL_AND_VERTICAL,
-//            // Keep original model size
-//            scaleUnits = null
-//        ),
+
         Model(
             fileLocation = "https://sceneview.github.io/assets/models/Halloween.glb",
             placementMode = PlacementMode.PLANE_HORIZONTAL,
